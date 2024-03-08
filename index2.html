@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive-rating-component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Overpass;
+        height: 100vh;
+        background: hsl(216, 12%, 8%);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="div1" style="margin-top: 1%;">
+      <div id="div2" style="height: 65vh;">
+        <div id="div3"></div>
+        <div>
+          <h2>How did we do?</h2>
+          <p id="paragraph">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+        <div class="div4">
+          <div class="div5">1</div>
+          <div class="div5">3</div>
+          <div class="div5">2</div>
+          <div class="div5">4</div>
+          <div class="div5">5</div>
+        </div>
+        <div id="submit">SUBMIT</div>
+      </div>
+
+
+        <div class="thank-you-div"
+      style="
+        width: 400px;
+        background: hsl(213, 19%, 18%);
+        padding: 2em;
+        border-radius: 1em;
+        box-sizing: border-box;
+        display: none;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 2em;
+        "
+      >
+        <img src="/images/illustration-thank-you.svg" alt="thank-you" />
+        <button
+          style="
+            color: hsl(25, 97%, 65%);
+            border: none;
+            outline: none;
+            background: hsl(216, 12%, 25%);
+            padding: 0.8em 1em;
+            font-size: 12px;
+            border-radius: 100em;
+          "
+        >
+          You selected <span id="content"></span> out of 5
+        </button>
+      </div>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 0.5em;
+          margin-top: 2em;
+        "
+      >
+        <h1>Thank you!</h1>
+        <p
+          style="text-align: center; font-size: 15px; color: hsl(217, 12%, 63%)"
+        >
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+     
+
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

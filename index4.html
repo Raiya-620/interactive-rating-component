@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Overpass;
+        height: 100vh;
+        background: hsl(216, 12%, 8%);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        width: 400px;
+        background: hsl(213, 19%, 18%);
+        padding: 2em;
+        border-radius: 1em;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 2em;
+        "
+      >
+        <img src="/images/illustration-thank-you.svg" alt="thank-you" />
+        <button
+          style="
+            color: hsl(25, 97%, 65%);
+            border: none;
+            outline: none;
+            background: hsl(216, 12%, 25%);
+            padding: 0.8em 1em;
+            font-size: 12px;
+            border-radius: 100em;
+          "
+        >
+          You selected <span id="content"></span> out of 5
+        </button>
+      </div>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 0.5em;
+          margin-top: 2em;
+        "
+      >
+        <h1>Thank you!</h1>
+        <p
+          style="text-align: center; font-size: 15px; color: hsl(217, 12%, 63%)"
+        >
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+    <script src="index2.js"></script>
+  </body>
+</html>

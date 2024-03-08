@@ -1,0 +1,70 @@
+body {
+  background: hsl(216, 12%, 8%);
+  font-family: Overpass;
+}
+
+#div1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+#div2 {
+  padding: 40px 25px;
+  border-radius: 15px;
+  width: 25vw;
+  height: 50vh;
+  background: hsl(213, 19%, 13%);
+  color: white;
+}
+#div3 {
+  margin-bottom: 40px;
+  background-size: 13px;
+  background-image: url(./images/icon-star.svg);
+  background-repeat: no-repeat;
+  width: 37px;
+  height: 37px;
+  background-color: hsl(213, 19%, 28%);
+  border-radius: 50%;
+  background-position: center;
+}
+#paragraph {
+  color: hsl(217, 12%, 63%);
+  font-size: rem;
+  line-height: 25px;
+}
+.div4 {
+  display: flex;
+  justify-content: space-between;
+}
+.div5 {
+  color: hsl(217, 12%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(213, 19%, 28%);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+#submit {
+  margin-top: 30px;
+  padding: 2%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  background: hsl(25, 97%, 53%);
+}
+#submit:hover {
+  background: white;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+.div5:hover {
+  background: hsl(25, 97%, 53%);
+  color: white;
+  cursor: pointer;
+}
+.active {
+  background: hsl(217, 12%, 63%);
+  color: white;
+}
